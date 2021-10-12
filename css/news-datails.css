@@ -1,0 +1,100 @@
+.container-content .details-news h1{
+    text-align: center;
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.container-content .details-news ul li{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 8px;
+}
+.container-content .details-news ul{
+    float: left;
+}
+.container-content .details-news .author{
+    overflow: hidden;
+    color: rgb(102,102,102);
+    height: 30px;
+    border-bottom: 1px dotted rgb(102,102,102);
+}
+.container-content .details-news .share{
+    float: right;
+    font-size: 12px;
+    color: rgb(102,102,102);
+}
+.container-content .details-news .share a{
+   
+    /* font-size: 12px; */
+    color: rgb(102,102,102);
+}
+.container-content .details-news .share{
+    float: right;
+    font-size: 12px;
+    color: rgb(102,102,102);
+}
+.container-content .details-news .share a i{
+    background: url(../news/img/sprite.png) no-repeat;
+    padding-right: 3px;
+    padding-top: -2px;
+    display: inline-block;
+}
+.container-content .details-news .share a:nth-child(1) i {
+    width: 13px;
+    height: 13px;
+}
+.container-content .details-news .share a:nth-child(2) i {
+    width: 13px;
+    height: 13px;
+    background-position: 0 -19px;
+}
+.container-content .details-news .share a:nth-child(3) i {
+    width: 13px;
+    height: 13px;
+    background-position: 0 -40px;
+}
+.container-content .details-news .share a:nth-child(4) i {
+    width: 13px;
+    height: 13px;
+    background-position: 0 -60px;
+}
+.container-content .details-news .new-article{
+    padding: 30px 20px 20px;
+    font-family: 宋体;
+    border-bottom: 1px dotted rgb(102,102,102);
+}
+.container-content .details-news .new-article p{
+    font-size: 12px;
+    line-height: 24px;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+.container-content .details-news .new-article img{
+    width: 488px;
+    margin-left: 100px;
+}
+.container-content .details-news .new-article .img-title{
+    text-align: center;
+}
+.container-content .details-news .new-article h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container-content .footer-new {
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+.container-content .footer-new p:first-child{
+ float: left;
+}
+.container-content .footer-new p:last-child a{
+    float: right;
+    color: rgb(1, 161, 255);
+}
+.container-content .footer-new p a{
+    color: rgb(102,102,102);
+}
